@@ -1,7 +1,7 @@
 const {storingData}=require("../model/model")
 
 exports.registrerFunction=(req,res)=>{
-    res.send("helloworld")
+    res.send("helloworld deepthi")
     storingData(req.body)
 }
 
